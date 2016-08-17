@@ -14,6 +14,14 @@ my WebDAV applications use jsDAV
 	4. run the server
 		node server.js
 		
+	5. open the web interface on your browser
+		http://localhost:8000/
+		
+	6. upload file from iOS simulator (you run source code on simulator)
+		send a POST request via WebDAV protocol to the URL
+		http://localhost:8000/
+		with no user name and password (annonymous user)
+	
 #### About NodeJS
 
 	you can google 'how to install nodejs' if you never run it on your machine before
